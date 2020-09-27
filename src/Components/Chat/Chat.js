@@ -1,10 +1,10 @@
+import React, { useState } from "react";
 import { Avatar, IconButton } from "@material-ui/core";
 import SearchIcon from "@material-ui/icons/Search";
 import AttachFileIcon from "@material-ui/icons/AttachFile";
 import MoreVertIcon from "@material-ui/icons/MoreVert";
 import InsertEmoticonIcon from "@material-ui/icons/InsertEmoticon";
 import axios from "../../axios";
-import React, { useState } from "react";
 import "./Chat.scss";
 
 const Chat = ({ messages }) => {

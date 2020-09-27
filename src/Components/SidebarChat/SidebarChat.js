@@ -1,6 +1,6 @@
-import { Avatar } from "@material-ui/core";
 import React from "react";
-import './SidebarChat.scss';
+import { Avatar } from "@material-ui/core";
+import "./SidebarChat.scss";
 
 const SidebarChat = () => {
   return (
