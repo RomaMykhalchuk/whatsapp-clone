@@ -47,7 +47,7 @@ const Chat = ({ messages }) => {
           <p className={`chat__message ${message.received && "chat__reciver"}`}>
             <span className="chat__name">{message.name}</span>
             {message.message}
-            <span className="chat__timestamp">{new Date(message).toString()}</span>
+            <span className="chat__timestamp">{new Date(message.timestamp).toString()}</span>
           </p>
         ))}
       </div>
