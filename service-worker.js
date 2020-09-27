@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/whatsapp-clone/precache-manifest.30dd5583fc9bd89700c98c148d75b7e7.js"
+  "/whatsapp-clone/precache-manifest.a4e1099545fe331076b4c5fc4e5d7974.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1b6056a6193180fcd1f798952c99066b",
+    "revision": "1d0a501ba75b3b51c668e39bf64aeafc",
     "url": "/whatsapp-clone/index.html"
   },
   {
-    "revision": "b8910ab41c308b5137a1",
-    "url": "/whatsapp-clone/static/css/main.f8c57d22.chunk.css"
+    "revision": "663fc2051787ffcc519f",
+    "url": "/whatsapp-clone/static/css/main.8a45666c.chunk.css"
   },
   {
     "revision": "75831c811a9f7e62a433",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/whatsapp-clone/static/js/2.a43194bc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b8910ab41c308b5137a1",
-    "url": "/whatsapp-clone/static/js/main.00788bac.chunk.js"
+    "revision": "663fc2051787ffcc519f",
+    "url": "/whatsapp-clone/static/js/main.b7a3e42a.chunk.js"
   },
   {
     "revision": "6a8fb725ea9406a0da76",
