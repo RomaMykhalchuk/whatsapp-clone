@@ -3,23 +3,23 @@ import SearchIcon from "@material-ui/icons/Search";
 import AttachFileIcon from "@material-ui/icons/AttachFile";
 import MoreVertIcon from "@material-ui/icons/MoreVert";
 import InsertEmoticonIcon from "@material-ui/icons/InsertEmoticon";
-import axios from '../../axios';
+import axios from "../../axios";
 import React, { useState } from "react";
 import "./Chat.scss";
 
 const Chat = ({ messages }) => {
-  const [input, setInput] = useState(""); 
-  const sendMessage = async(e) => {
+  const [input, setInput] = useState("");
+  const sendMessage = async (e) => {
     e.preventDefault();
 
-    await axios.post('/messages/new', {
+    await axios.post("/messages/new", {
       message: input,
-      name:  'peter',
-      timestamp: 'far adar',
+      name: "peter",
+      timestamp: "far adar",
       received: false,
     });
 
-    setInput('');
+    setInput("");
   };
 
   return (
@@ -47,14 +47,18 @@ const Chat = ({ messages }) => {
           <p className={`chat__message ${message.received && "chat__reciver"}`}>
             <span className="chat__name">{message.name}</span>
             {message.message}
-            <span className="chat__timestamp">{message.timestamp}</span>
+            <span className="chat__timestamp">{new Date(message).toString()}</span>
           </p>
         ))}
       </div>
       <div className="chat__footer">
         <InsertEmoticonIcon />
         <form>
-          <input placeholder="Type a message" value={input} onChange={(e)=>setInput(e.target.value) } />
+          <input
+            placeholder="Type a message"
+            value={input}
+            onChange={(e) => setInput(e.target.value)}
+          />
           <button onClick={sendMessage} type="submit">
             Send a message
           </button>
