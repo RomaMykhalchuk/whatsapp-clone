@@ -1,3 +1,5 @@
+# whatsapp-clone
+
 <a href="https://romamykhalchuk.github.io/whatsapp-clone/">DEMO</a>
 
 WhatsApp clone application developed on MERN stack. Front-end part was deployed on gh-pages, backend was deployed on heroku.
