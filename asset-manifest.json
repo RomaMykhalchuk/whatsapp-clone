@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/whatsapp-clone/static/css/main.fe0e7f9e.chunk.css",
-    "main.js": "/whatsapp-clone/static/js/main.1ec6295f.chunk.js",
-    "main.js.map": "/whatsapp-clone/static/js/main.1ec6295f.chunk.js.map",
+    "main.css": "/whatsapp-clone/static/css/main.538b3a81.chunk.css",
+    "main.js": "/whatsapp-clone/static/js/main.252caee6.chunk.js",
+    "main.js.map": "/whatsapp-clone/static/js/main.252caee6.chunk.js.map",
     "runtime-main.js": "/whatsapp-clone/static/js/runtime-main.eeb36d07.js",
     "runtime-main.js.map": "/whatsapp-clone/static/js/runtime-main.eeb36d07.js.map",
     "static/js/2.a43194bc.chunk.js": "/whatsapp-clone/static/js/2.a43194bc.chunk.js",
     "static/js/2.a43194bc.chunk.js.map": "/whatsapp-clone/static/js/2.a43194bc.chunk.js.map",
     "index.html": "/whatsapp-clone/index.html",
-    "precache-manifest.06ddc5db1ee701809ac0860e1a138d7c.js": "/whatsapp-clone/precache-manifest.06ddc5db1ee701809ac0860e1a138d7c.js",
+    "precache-manifest.f04eb052e93d0f5866dcd6bc1d30a544.js": "/whatsapp-clone/precache-manifest.f04eb052e93d0f5866dcd6bc1d30a544.js",
     "service-worker.js": "/whatsapp-clone/service-worker.js",
-    "static/css/main.fe0e7f9e.chunk.css.map": "/whatsapp-clone/static/css/main.fe0e7f9e.chunk.css.map",
+    "static/css/main.538b3a81.chunk.css.map": "/whatsapp-clone/static/css/main.538b3a81.chunk.css.map",
     "static/js/2.a43194bc.chunk.js.LICENSE.txt": "/whatsapp-clone/static/js/2.a43194bc.chunk.js.LICENSE.txt",
     "static/media/Chat.scss": "/whatsapp-clone/static/media/background.f564e123.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.eeb36d07.js",
     "static/js/2.a43194bc.chunk.js",
-    "static/css/main.fe0e7f9e.chunk.css",
-    "static/js/main.1ec6295f.chunk.js"
+    "static/css/main.538b3a81.chunk.css",
+    "static/js/main.252caee6.chunk.js"
   ]
 }
